@@ -1,7 +1,7 @@
 # @Author: Maxime Caïtucoli <mcaitucoli>
 # @Date:   2019-04-29T20:02:41+08:00
 # @Last modified by:   mcaitucoli
-# @Last modified time: 2019-04-29T20:37:18+08:00
+# @Last modified time: 2019-04-29T21:01:29+08:00
 
 from os.path import join, dirname, basename
 
@@ -15,5 +15,5 @@ TEST_INPUT_RAW = join(PROJECT_DIR, "data/raw/testing_input_jqUOUMs.csv")
 
 # CLEAN DATA
 
-TRAIN_CLEAN = join(PROJECT_DIR, "data/clean/train_clean.csv")
-TEST_CLEAN = join(PROJECT_DIR, "data/clean/train_clean.csv")
+TRAIN_MERGED = join(PROJECT_DIR, "data/merged/train_merged.csv")
+TEST_MERGED = join(PROJECT_DIR, "data/merged/test_merged.csv")
