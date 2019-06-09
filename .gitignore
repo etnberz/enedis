@@ -1,3 +1,7 @@
 *.pyc
 *.loc
 *.csv
+*.png
+
+.ipynb_checkpoints/
+notebooks/.ipynb_checkpoints/
